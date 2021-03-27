@@ -4,11 +4,14 @@
 <head>
   <title>WEB1 - JavaScript</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="야간모드" onclick="document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';">
+  <input type="button" value="낮모드" onclick="document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';">
   <div id="grid">
     <ol>
       <li><a href="1.html">HTML</a></li>
